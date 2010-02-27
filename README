@@ -1,0 +1,12 @@
+Tron AI bot for the Google AI competition
+Copyright (C) Henrik Nordvik
+
+This is my entry in the Google AI Challenge:
+http://csclub.uwaterloo.ca/contest/
+I first implemented it in python, then ported it to C++ for speed.
+
+It basically uses minimax search with alpha-beta pruning. As an evaluasion
+function is uses one BFS search from each player, and then counts the number of
+squares each player reaches first.
+
+henrikno+tron@gmail.com
